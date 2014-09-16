@@ -21,7 +21,7 @@ M10P2603 <br>
 ### Divide & Conquer
 Classic example, sorting.
 
-###### Merge Sort
+#### Merge Sort
 ```javascript
 /* Simple mergesort.
  * Complexity, O(j-i), proportional to #elements
@@ -59,14 +59,26 @@ merge(A,i,k,j){
 ```
 ###### Time Complexity
 ![image](https://raw.githubusercontent.com/CommanderAlchemy/Advanced-Programming/master/Lectures/Lecture4_images/mSort_complexity_0.png "complexity")
-![image](https://raw.githubusercontent.com/CommanderAlchemy/Advanced-Programming/master/Lectures/Lecture4_images/mSort_complexity_1.png "Using Master Theorem")
-![image](null "Master Theorem vars")
-![image](null "Result")
 
-###### Quicksort
+![image](https://raw.githubusercontent.com/CommanderAlchemy/Advanced-Programming/master/Lectures/Lecture4_images/mSort_complexity_1.png "Using Master Theorem")
+
+###### Variables
+![image](https://raw.githubusercontent.com/CommanderAlchemy/Advanced-Programming/master/Lectures/Lecture4_images/mSort_complexity_2.png "Master Theorem vars")
+
+###### Using the theorem: d = logb....
+![image](https://raw.githubusercontent.com/CommanderAlchemy/Advanced-Programming/master/Lectures/Lecture4_images/mSort_complexity_3.png "Result")
+
+###### Gives us:
+![image](https://raw.githubusercontent.com/CommanderAlchemy/Advanced-Programming/master/Lectures/Lecture4_images/mSort_complexity_4.png "Result")
+
+#### Quicksort
 ```javascript
-A = qSort(A,D,A.lenght-1)
-return A
+/* Simple quicksort
+ * Complexity, O(j-i)
+ */
+A = qSort(A,D,A.lenght-1){
+  return A
+}
 
 qSort(A,i,j){
   if(j-i > 0){
@@ -75,5 +87,17 @@ qSort(A,i,j){
     qSort(A,k+1,j)
   }
   return A
+}
+partition (A,i,j){
+  choose pivot p moreto A[i]
+  m=i
+  for (k=i to j-1){
+    if (p >= A[k]){
+      swap A[m] and A[k]
+      m++
+    }
+    swap A[j] and A[m]
+    return m
+  }
 }
 ```
