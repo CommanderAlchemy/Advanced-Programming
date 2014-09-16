@@ -64,7 +64,9 @@ return p
 
 #### Faster method
 Using divide and conquer, (split and multiply left parts and right parts sep.).
-![image](http://i.imgur.com/JmqPASk.jpeg "Malmö Högskola")
+![image](https://raw.githubusercontent.com/CommanderAlchemy/Advanced-Programming/master/Lectures/Lecture3_images/axb.png "Divide & Conquer")
+![image](https://raw.githubusercontent.com/CommanderAlchemy/Advanced-Programming/master/Lectures/Lecture3_images/axb_0.png "a*b=")
+![image](https://raw.githubusercontent.com/CommanderAlchemy/Advanced-Programming/master/Lectures/Lecture3_images/axb_1.png "cont")
 
 Calculating the time complexity
 ![image](http://i.imgur.com/5mmJIwU.jpeg "Malmö Högskola")

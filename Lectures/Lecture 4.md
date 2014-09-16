@@ -56,8 +56,13 @@ merge(A,i,k,j){
     }
   }
 }
-
 ```
+###### Time Complexity
+![image](https://raw.githubusercontent.com/CommanderAlchemy/Advanced-Programming/master/Lectures/Lecture4_images/mSort_complexity_0.png "complexity")
+![image](https://raw.githubusercontent.com/CommanderAlchemy/Advanced-Programming/master/Lectures/Lecture4_images/mSort_complexity_1.png "Using Master Theorem")
+![image](null "Master Theorem vars")
+![image](null "Result")
+
 ###### Quicksort
 ```javascript
 A = qSort(A,D,A.lenght-1)
@@ -66,7 +71,7 @@ return A
 qSort(A,i,j){
   if(j-i > 0){
     k= partition(A,i,j)
-    qSort(A,i,k-1)
+    qSort(A,i,k-1)us
     qSort(A,k+1,j)
   }
   return A
