@@ -1,9 +1,9 @@
 ![image](https://pbs.twimg.com/profile_images/624172340/mah-logo-twitter_normal.png "Malmö Högskola") Malmö Högskola
 
 
-Artur Olech <br>
-M10P2603 <br>
-[Kurssida: Advanced Programming](https://www.google.com "Advanced Programming")
+Artur Olech  
+M10P2603  
+[Kurssida: Advanced Programming](http://edu.mah.se/DA405A "Advanced Programming")
 # Advanced Programming
 ### Lecture 5
 >Previous lecture

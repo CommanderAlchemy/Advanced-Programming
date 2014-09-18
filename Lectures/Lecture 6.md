@@ -3,7 +3,7 @@
 
 Artur Olech  
 M10P2603  
-[Kurssida: Advanced Programming](https://www.google.com "Advanced Programming")
+[Kurssida: Advanced Programming](http://edu.mah.se/DA405A "Advanced Programming")
 # Advanced Programming
 ### Lecture 6
 >Previous lecture
