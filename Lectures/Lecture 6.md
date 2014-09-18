@@ -14,6 +14,7 @@ M10P2603
 * O(n) expected
 
 # Linear time selection
+![image](https://raw.githubusercontent.com/CommanderAlchemy/Advanced-Programming/master/Lectures/Lecture6_images/lts_drawing.JPG "Linear Time Search")
 ```javascript
 select(A,m){
   return doSelect(A,0,A.lenght,m)
