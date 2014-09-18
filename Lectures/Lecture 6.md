@@ -1,8 +1,8 @@
 ![image](https://pbs.twimg.com/profile_images/624172340/mah-logo-twitter_normal.png "Malmö Högskola") Malmö Högskola
 
 
-Artur Olech <br>
-M10P2603 <br>
+Artur Olech  
+M10P2603  
 [Kurssida: Advanced Programming](https://www.google.com "Advanced Programming")
 # Advanced Programming
 ### Lecture 6
@@ -36,19 +36,19 @@ partition(A,i,j){
 }
 ```
 ###### Time complexity
-![image]()
+![image](https://raw.githubusercontent.com/CommanderAlchemy/Advanced-Programming/master/Lectures/Lecture6_images/lts_0.png "Linear Time Search")
 
 # Graphs
 ###### A graph G is a tuple (VcE)
 * V is a set of nodes / vertices
 * E is a set of edges / arcs
 
-###### Useful to represent stuff lile:
+###### Useful to represent stuff like:
 * Facebook connections
 * Bordering countries
 * Computer networks
 * Mazes
-* Transportation netowrks
+* Transportation networks
 
 ###### Types
 * Adjucence list
