@@ -52,9 +52,14 @@ partition(A,i,j){
 * Transportation networks
 
 ###### Types
-* Adjucence list
-* Adjucence matrix
+* Adjucency list
+![image](https://raw.githubusercontent.com/CommanderAlchemy/Advanced-Programming/master/Lectures/Lecture6_images/adjucence_list.JPG "list")
+
+* Adjucency matrix
+![image](https://raw.githubusercontent.com/CommanderAlchemy/Advanced-Programming/master/Lectures/Lecture6_images/adjucence_matrix.JPG "matrix")
+
 * Incidence matrix
+![image](https://raw.githubusercontent.com/CommanderAlchemy/Advanced-Programming/master/Lectures/Lecture6_images/incidence_matrix.JPG "matrix")
 
 ## Graph Transversal
 Organised transversal
