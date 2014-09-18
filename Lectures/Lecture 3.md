@@ -1,12 +1,14 @@
 ![image](https://pbs.twimg.com/profile_images/624172340/mah-logo-twitter_normal.png "Malmö Högskola") Malmö Högskola
 
 
-Artur Olech <br>
-M10P2603 <br>
+Artur Olech  
+M10P2603  
 [Kurssida: Advanced Programming](https://www.google.com "Advanced Programming")
 # Advanced Programming
 ### Lecture 3
 >Previous lecture was about uploading assignments to gov, thus no notes.
+
+### <br>
 
 #TODO
 * Clean up pictures from other clutter
@@ -65,7 +67,9 @@ return p
 #### Faster method
 Using divide and conquer, (split and multiply left parts and right parts sep.).
 ![image](https://raw.githubusercontent.com/CommanderAlchemy/Advanced-Programming/master/Lectures/Lecture3_images/axb.png "Divide & Conquer")
+
 ![image](https://raw.githubusercontent.com/CommanderAlchemy/Advanced-Programming/master/Lectures/Lecture3_images/axb_0.png "a*b=")
+
 ![image](https://raw.githubusercontent.com/CommanderAlchemy/Advanced-Programming/master/Lectures/Lecture3_images/axb_1.png "cont")
 
 Calculating the time complexity

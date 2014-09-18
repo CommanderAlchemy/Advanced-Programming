@@ -1,0 +1,29 @@
+\newline
+T(n) = 4*T(\frac{n}{2}) + cn =
+\newline
+\newline
+= 4(4T(\frac{n}{4})+\frac{cn}{2}) + cn
+\newline
+\newline
+=4(4(4T(\frac{n}{8})+\frac{cn}{4})+\frac{cn}{2})+\frac{cn}{1}
+\newline
+\newline
+=4^k*T(\frac{n}{2^k})+ \sum ^{k-1} _{i=0} 2^i *cn
+\newline
+\newline
+=4^{logn}*T(1) + cn \sum ^{logn-1} _{i=0} 2^1
+\newline
+\newline
+=4^{logn}+cn*2^{logn} -1
+\newline
+\newline
+=n^{log4} + cn^{log2} -1
+\newline
+\newline
+=n^2+cn2-1
+\newline
+\newline
+=c+1^2-1
+\newline
+\newline
+=O(n^2)

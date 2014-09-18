@@ -1,0 +1,26 @@
+\newline
+T(n)=3T(\frac{n}{2}) +cn
+\newline
+\newline
+=3(3T(\frac{n}{4})+\frac{cn}{2})+cn
+\newline
+\newline
+=3(3(3T(\frac{n}{8})+\frac{cn}{4})\frac{cn}{2})+cn
+\newline
+\newline
+=3^k*T(\frac{n}{2^k}) + \sum ^{k-1} _{i=0}cn*\frac{3^i}{2^i}
+\newline
+\newline
+=3^{logn}*T(1)+cn \sum ^{k-1} _{i=0} (\frac{3}{2})^2
+\newline
+\newline
+=3^{logn}+cn*(\frac{3}{2})^{logn}
+\newline
+\newline
+=n^{log3}+cn*n^{log\frac{3}{2}}
+\newline
+\newline
+=(c+1)n^{log3}
+\newline
+\newline
+~ 1.59
