@@ -10,12 +10,6 @@ M10P2603
 
 ### <br>
 
-#TODO
-* Clean up pictures from other clutter
-* Upload to github
-* Redo links
-* Update hoover information on pictures
-
 ### Datastructures
 * List Arrays
 * Binary Search Trees
@@ -72,29 +66,44 @@ Using divide and conquer, (split and multiply left parts and right parts sep.).
 
 ![image](https://raw.githubusercontent.com/CommanderAlchemy/Advanced-Programming/master/Lectures/Lecture3_images/axb_1.png "cont")
 
-Calculating the time complexity
-![image](http://i.imgur.com/5mmJIwU.jpeg "Malmö Högskola")
-
-Result
-![image](http://i.imgur.com/P8yszpR.jpeg "Malmö Högskola")
+**Calculating the time complexity**  
+![image](https://raw.githubusercontent.com/CommanderAlchemy/Advanced-Programming/master/Lectures/Lecture3_images/multiplication_complexity_calc.png)
 
 
 ### Even faster method
-By using factorisation and calculating all values from parts
-![image](http://i.imgur.com/CkNIZ1N.jpeg "Malmö Högskola")
+By using factorisation and calculating all values from parts  
+![image](https://raw.githubusercontent.com/CommanderAlchemy/Advanced-Programming/master/Lectures/Lecture3_images/multiplication_factorisation.png)
 
-Calculating the time complexity
-![image](http://i.imgur.com/1MjrNyc.jpeg "Malmö Högskola")
+**Calculating the time complexity**  
+![image](https://raw.githubusercontent.com/CommanderAlchemy/Advanced-Programming/master/Lectures/Lecture3_images/multiplication_complexity__factorisation_calc.png "Malmö Högskola")
 
 ### Another method that is even faster
 ![image](http://www.imgur.com/GdGpkEK.jpeg "Malmö Högskola")
 
+### <br>
 
-### Master Theorem
-![image](http://www.imgur.com/lb79znC.jpeg "Malmö Högskola")
+# Example problems using "Master Theorem"
 
-Example problems
-![image](http://www.imgur.com/TkcnTF0.jpeg "Malmö Högskola")
+![image](https://raw.githubusercontent.com/CommanderAlchemy/Advanced-Programming/master/Lectures/Lecture3_images/Master_Theorem.png "Master Theorem")
 
-Using the "Masther Theorem" gives
-![image](http://www.imgur.com/ilc0K1R.jpeg "Malmö Högskola")
+
+### <br>
+
+
+***Example problems***  
+![image](https://raw.githubusercontent.com/CommanderAlchemy/Advanced-Programming/master/Lectures/Lecture3_images/Example_Problems.png "Example Problems")
+
+***Using the "Masther Theorem" gives***  
+![image](https://raw.githubusercontent.com/CommanderAlchemy/Advanced-Programming/master/Lectures/Lecture3_images/T1.png "1")
+
+<br>
+
+![image](https://raw.githubusercontent.com/CommanderAlchemy/Advanced-Programming/master/Lectures/Lecture3_images/T2.png "2")
+
+<br>
+
+![image](https://raw.githubusercontent.com/CommanderAlchemy/Advanced-Programming/master/Lectures/Lecture3_images/T3.png "3")
+
+<br>
+
+![image](https://raw.githubusercontent.com/CommanderAlchemy/Advanced-Programming/master/Lectures/Lecture3_images/T4.png "4")
